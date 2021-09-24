@@ -22,18 +22,18 @@
       </tr>
     </thead>
     <tbody>
-      <tr *ngFor="let project for projects">
+      <tr *ngFor="let proj of project">
         <td>
-          {{project.id}}
+          {{proj.id}}
         </td>
         <td>
-          {{project.name}}
+          {{proj.name}}
         </td>
         <td>
-          {{project.desc}}
+          {{proj.desc}}
         </td>
         <td>
-          {{project.cl}}
+          {{proj.cl}}
         </td>
       </tr>
     </tbody>
